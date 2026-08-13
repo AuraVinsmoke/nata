@@ -1,18 +1,21 @@
-# Node modules
+# Dependencies
 node_modules/
 
-# Environment variables
+# Environment
 .env
+.env.*
 
-# Auth session (sensitive)
+# Auth data
 auth/
 
-# Logs and stats (may contain sensitive data)
+# Logs and stats
 *.log
-*-activity.log
-*-stats.json
-activity.log
 stats.json
+activity.log
 
-# Contact mapping (contains phone numbers)
+# Personal data
 contact-map.json
+
+# OS
+.DS_Store
+Thumbs.db
