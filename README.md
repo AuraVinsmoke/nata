@@ -47,7 +47,7 @@ npx nata start
 or
 
 ```bash
-npm install -g @auravinsmoke/nataforwa
+npm install -g nataforwa
 # Setup (creates .env with ntfy config)
 nata init --phone 1234567890 --topic my_topic
 # Start (automatically uses ntfy from .env)
