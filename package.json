@@ -1,0 +1,47 @@
+{
+  "name": "nataforwa",
+  "version": "1.0.0",
+  "description": "Nata - Monitor WhatsApp contact activity, typing indicators, and online status in real-time",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "nata": "./cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js",
+    "init": "node init.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "monitor",
+    "activity",
+    "typing",
+    "baileys",
+    "notification",
+    "tracker",
+    "presence"
+  ],
+  "author": "auravinsmoke",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/auravinsmoke/nata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/auravinsmoke/nata/issues"
+  },
+  "homepage": "https://github.com/auravinsmoke/nata#readme",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.7",
+    "pino": "^9.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

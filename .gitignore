@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Auth session (sensitive)
+auth/
+
+# Logs and stats (may contain sensitive data)
+*.log
+*-activity.log
+*-stats.json
+activity.log
+stats.json
+
+# Contact mapping (contains phone numbers)
+contact-map.json
